@@ -1183,6 +1183,14 @@ footer .copyright {
         padding: 0 20px;
     }
     
+    #banner2 h2{
+        font-size: 22px;    
+    }
+
+    #banner2 h3{
+        font-size: 17px;    
+    }
+
     #banner2 .banner-box {
         width: 100%;
     }
