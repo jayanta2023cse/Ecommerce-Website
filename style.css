@@ -888,6 +888,11 @@ footer .copyright {
 
 
 /* Cart page */
+
+#cart{
+    overflow-x: auto;
+}
+
 #cart table {
     width: 100%;
     border-collapse: collapse;
@@ -1125,11 +1130,67 @@ footer .copyright {
     #newsletter .form {
         width: 70%;
     }
+
+    /* --------------- SINGLE PRODUCT page --------------- */
+
+
+
+    /* ------------------ BLOG PAGE --------------------- */
+
+    #blog {
+        padding: 100px 40px 0 40px;
+    }
+    
+    
+    /* --------------------- ABOUT PAGE ----------------------*/
+    
+    #about-contact .contact-details {
+        width: 40%;
+    }
+
+    #about-contact {
+        padding-right: 205px;
+    }
+    #about-contact .map {
+        width: 50%;
+        padding-right: 20px;
+    }
+
+
+    /* ---------------------CONTACT US PAGE ----------------------*/
+    
+    
+    #about-contact {
+        padding: 30px;
+        margin-bottom: 40px;
+    }
+    
+    #about-contact .contact-details {
+        width: 100%;
+    }
+    
+    #about-contact .map {
+        width: 100%;
+        padding-right: 5px;
+    }
+
+    #form-details {
+        padding: 40px;
+    }
+
+    #form-details form {
+        width: 70%;
+    }
 }
 
-/* ---------------- For small screen devices ----------------------*/
 
- /*           for HOME PAGE -->  line no 1118 -- 1179                */
+
+
+
+
+/* -------------------------------------------FOR MEDIUM SCREEN DEVICES-------------------------------------------- */
+
+/* ----------------------- HOME PAGE --------------------- */
 
 
 @media (max-width :477px){
@@ -1143,7 +1204,7 @@ footer .copyright {
     h1{
         font-size: 38px;
     }
-
+    
     h2{
         font-size: 32px;
     }
@@ -1152,16 +1213,16 @@ footer .copyright {
         padding: 0 20px;
         background-position: 65%;
     }
-
+    
     #feature {
         justify-content: space-between;
     }
-
+    
     #feature .fe-box {
         width: 155px;
         margin: 0 0 15px 0;
     }
-
+    
     #product1 .pro {
         width: 100%;
     }
@@ -1169,7 +1230,7 @@ footer .copyright {
     #banner {
         height: 40vh;
     }
-
+    
     #sm-banner .banner-box {
         background-position: top 25% right 45%;
         height: 40vh;
@@ -1190,7 +1251,7 @@ footer .copyright {
     #banner2 h3{
         font-size: 17px;    
     }
-
+    
     #banner2 .banner-box {
         width: 100%;
     }
@@ -1203,9 +1264,10 @@ footer .copyright {
         padding: 40px 20px;
     }
 
-
+    
+    
     /*---------------- SINGLE PRODUCT page --------------*/
-
+    
     #product-details {
         display: flex;
         flex-direction: column;
@@ -1219,5 +1281,95 @@ footer .copyright {
         width: 100%;
     }
 
+
+    /* --------------------- BLOG PAGE ----------------------*/
+    
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+    
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    
+    #blog .blog-details {
+        width: 100%;
+    }
+    
+    /* --------------------- ABOUT PAGE ----------------------*/
+    
+    #about-head {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #about-head .head-details {
+        padding-left: 0px;
+    }
+
+    #about-app .video {
+        width: 100%;
+    }
+
+
+    /* ---------------------CONTACT US PAGE ----------------------*/
+
+    #about-contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-contact .contact-details {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-contact .map {
+        width: 100%;
+    }
+
+    #form-details {
+        margin: 15px;
+        flex-wrap: wrap;
+        padding: 30px 15px;
+    }
+
+    #form-details form {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    /* ---------------------CART PAGE ----------------------*/
+
+
+    #coupon {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0px 20px 10px 20px;
+    }
+
+    #coupon .discount {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #coupon .total {
+        width: 100%;
+    }
     
 }
