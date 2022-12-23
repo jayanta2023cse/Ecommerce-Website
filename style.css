@@ -1202,4 +1202,22 @@ footer .copyright {
     #newsletter {
         padding: 40px 20px;
     }
+
+
+    /*---------------- SINGLE PRODUCT page --------------*/
+
+    #product-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #product-details .single-pro-img {
+        width: 100%;
+    }
+
+    #product-details .single-pro-details {
+        width: 100%;
+    }
+
+    
 }
