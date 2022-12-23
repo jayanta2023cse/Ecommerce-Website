@@ -1097,12 +1097,29 @@ footer .copyright {
         height: 30vh;
     }
     
+    #sm-banner .banner-box2 {
+        margin-top: 20px;
+    }
+
     #banner2 {
         padding: 0 40px;
     }
 
     #banner2 .banner-box {
-        width: 28%;
+        width: 100%;
+    }
+
+    #banner2 .banner-box {
+        min-width: 50%;
+        
+    }
+
+    #banner2 h2{
+        font-size: 25px;    
+    }
+
+    #banner2 h3{
+        font-size: 20px;    
     }
     
     #newsletter .form {
